@@ -9,3 +9,5 @@ while True :
 		p.append (price)
 		product.append (p)
 print (product)
+for pr in product:
+	print (pr[0],'的價格是',pr[1])
